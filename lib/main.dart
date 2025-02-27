@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/start_screen.dart';
+import './screens/splash_screen.dart';
 
 void main(List<String> args) {
   runApp(TictakToa());
@@ -12,7 +12,7 @@ class TictakToa extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: StartScreen(),
+      home: SplashScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
